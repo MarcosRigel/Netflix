@@ -44,7 +44,6 @@ header nav a:hover {
 .filme-principal {
   font-size:16px;
   background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(img/capa.jpg);
-
   height:580px;
   background-size: cover;
 
@@ -106,4 +105,10 @@ header nav a:hover {
 
 .postImage {
   width: 90px;
+}
+
+.box-filme{
+  height: 100%;
+  width: 100%;
+  display: block;
 }
