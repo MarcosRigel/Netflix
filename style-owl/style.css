@@ -45,7 +45,7 @@ header nav a:hover {
   font-size:16px;
   background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(img/capa.jpg);
 
-  height:400px;
+  height:580px;
   background-size: cover;
 
   display: flex;
@@ -85,4 +85,25 @@ header nav a:hover {
 
 .botao i{
   margin-right: 8px;
+}
+
+.container{
+  margin-left: 20px;
+}
+
+.filme-principal .container{
+  width: 70%;
+
+}
+
+.titulo {
+  background: url(img/titulo.png);
+}
+
+.post_image {
+  width: 500px;
+}
+
+.postImage {
+  width: 90px;
 }

@@ -4,13 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Netflix clone</title>
+  <link rel="stylesheet" href="style-owl/style.css">
+
+  <!--owl css-->
+  <link rel="stylesheet" href="style-owl/owl.carousel.min.css">  <title>Netflix clone</title>
+  <link rel="stylesheet" href="style-owl/owl.theme.default.min.css">  <title>Netflix clone</title>
+
 </head>
 <body>
   <header>
     <div class="container">
-      <h2 class="logo">NETFLIX</h2>
+      <img src="./img/LOGO.png" alt="Editor de HTML" class="postImage">
+      <h2 class="logo"></h2>
       <nav>
         <a href="#">Inicio</a>
         <a href="#">Séries</a>
@@ -23,8 +28,10 @@
   <main>
     <div class="filme-principal">
       <div class="container">
-        <h3 class="titulo">Stranger Things</h3>
-        <p class="descricao">Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.</p>
+        <h3 class="titulo"></h3>
+        <img src="./img/titulo.webp" alt="Editor de texto contendo código HTML" class="post_image"> 
+        <p class="descricao">Quando um garoto desaparece, a cidade toda participa nas buscas.<br> 
+          Mas o que encontram são segredos, forças sobrenaturais e uma menina.</p>
         <div class="botoes">
           <button role="button" class="botao">
             <i class="fas fa-thin fa-play"></i>
@@ -39,7 +46,18 @@
     </div>
   </main>
 
+  <div class="carrosel-series">
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img src="img/serie1.jpg" alt="" srcset="">
+        </div>
+
+    </div>
+  </div>
+
   <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+  <script src="js-owl/jquery.min.js"></script>
+  <script src="js-owl/owl.carousel.min.js"></script>
 
 </body>
 </html>
